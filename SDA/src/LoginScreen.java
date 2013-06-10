@@ -120,5 +120,6 @@ public class LoginScreen extends JFrame {
 		lblNewLabel.setIcon(new ImageIcon(LoginScreen.class.getResource("/Icons/Lock-icon.png")));
 		lblNewLabel.setBounds(58, 69, 50, 76);
 		contentPane.add(lblNewLabel);
+		this.setVisible(true);
 	}
 }
